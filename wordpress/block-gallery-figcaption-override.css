@@ -1,0 +1,17 @@
+// Reset gallery block image captions for accessibility. Quick and dirty technique for adding to customizer.
+
+.wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
+    background: none;
+    bottom: 0;
+    color: inherit;
+    font-size: inherit;
+    left: 0;
+    margin-bottom: 0;
+    max-height: inherit;
+    overflow: auto;
+    padding: 0 8px 8px;
+    position: inherit;
+    text-align: center;
+    width: 100%;
+    box-sizing: inherit;
+}
